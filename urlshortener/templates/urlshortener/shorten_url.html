@@ -1,0 +1,18 @@
+{% load static %}
+<html>
+<head>
+<title>Short URL generator</title>
+    <link rel="stylesheet" type="text/css" href={% static 'urlshortener/style.css' %}>
+</head>
+<body>
+<h1>Short URL generator</h1>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Shorten</button>
+</form>
+{% if shortened_url %}
+    <p>Shortened URL: {{ shortened_url }}</p>
+{% endif %}
+</body>
+</html>
