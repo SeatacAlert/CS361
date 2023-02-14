@@ -1,4 +1,5 @@
 REQUEST DATA
+
 Use the following URL pattern:
 http://localhost:8000/convert/<from_currency>/<to_currency>/<amount>/
   
