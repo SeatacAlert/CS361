@@ -32,7 +32,5 @@ else:
 ```
 
 **UML Sequence Diagram**
-
-![Untitled](README%20md/Untitled.png)
 ![image](https://user-images.githubusercontent.com/76701215/218653716-42df7cb9-2f61-4ebe-8723-369784f0663b.png)
 
