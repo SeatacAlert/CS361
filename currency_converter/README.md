@@ -33,4 +33,4 @@ else:
 
 **UML Sequence Diagram**
 
-![Untitled](README%20md%/Untitled.png)
+![Untitled](README%20md/Untitled.png)
