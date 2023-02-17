@@ -2,7 +2,7 @@
 
 **REQUEST DATA**
 
-Use the following URL pattern:
+Call API by using the following URL pattern:
 
 http://localhost:8000/convert/<from_currency>/<to_currency>//
 
@@ -14,7 +14,7 @@ This would return the result in an HTML template that displays the converted amo
 
 **RECEIVE DATA** 
 
-Make a GET request to the URL, then parse the response. 
+Make a HTTP GET request to the URL, then parse the JSON response. 
 
 For example, if we are using Python:
 
